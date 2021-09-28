@@ -1,0 +1,49 @@
+/* Navigation */
+#navbar{
+    
+    flex-direction: column;
+    font-size: 10px;
+}
+
+/* Home-Section */
+#Home{
+    height: 450px;
+}
+#Home p{
+    font-size: 13px;
+}
+#Home::before{
+    height: 460px;
+}
+
+/* Services-Section */
+.container{
+    flex-direction: column;
+}
+.container .box{
+    padding:15px;
+}
+
+
+
+/* Clients-Section */
+.section{
+    flex-wrap: wrap;
+}
+.clients{
+   
+    padding: 0px 15px;
+}
+
+
+/* Contact Us Section  */
+
+/* ulitity classes */
+.h-primary{
+    font-size: 20px;
+}
+.btn{
+    font-size: 13px;
+}
+
+/* Footer  */
