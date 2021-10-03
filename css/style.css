@@ -115,7 +115,9 @@ html{
 .container{
     display: flex;    
 }
-
+#services-container{
+    margin-top: 80px;
+}
 
 .container .box{
     padding: 21px;
@@ -190,9 +192,9 @@ html{
     margin: 2px;
      border-radius:10px ;
 }
-.form-group::before{
+#contact-container::before{
     content: "";
-    height: 91%;
+    height: 500px;
     width: 100%;
     position: absolute;
     background:url('../Contact.jpg') no-repeat center center/cover;
@@ -204,6 +206,5 @@ footer{
     font-size: 1.2rem;
     background-color: black;
     color: white;
-    margin-top: 39px;
     padding: 20px;
 }
