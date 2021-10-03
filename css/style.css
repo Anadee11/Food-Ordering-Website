@@ -68,7 +68,7 @@ html{
 }
 #Home::before{ 
     content: "";
-    height: 90%;
+    height: 650px;
     width: 100%;
     position: absolute;
     background:url('../bg1.jpg') no-repeat center center/cover;
