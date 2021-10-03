@@ -7,10 +7,12 @@
 
 /* Home-Section */
 #Home{
+    text-align: center;
     height: 450px;
 }
 #Home p{
     font-size: 13px;
+    text-align: center;
 }
 #Home::before{
     height: 460px;
@@ -36,6 +38,13 @@
 
 
 /* Contact Us Section  */
+.form-group input{
+    width: 90%;
+}
+.form-group textarea{
+    width: 90%;
+}
+
 
 /* ulitity classes */
 .h-primary{
@@ -49,3 +58,7 @@
 }
 
 /* Footer  */
+footer{
+    bottom: 0px;
+}
+
