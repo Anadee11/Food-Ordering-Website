@@ -187,14 +187,19 @@ html{
     font-family: 'Baloo Bhai 2', cursive;
 }
 .form-group textarea{
+    resize: none;
     width: 100%;
     padding: 0.5rem;
     margin: 2px;
      border-radius:10px ;
 }
+.Submit-btn{
+    display:flex;
+    justify-content: center;
+}
 #contact-container::before{
     content: "";
-    height: 500px;
+    height: 542px;
     width: 100%;
     position: absolute;
     background:url('../Contact.jpg') no-repeat center center/cover;
