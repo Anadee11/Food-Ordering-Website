@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="only screen and (max-width:1000px)" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <script>
+        function SubmitClick(){
+            alert("Button Disabled!! Website in Development Phase");
+        }
+        function OrderClick(){
+            alert("Coming Soon!")
+        }
+    </script>
 </head>
 <body>
     <nav id="navbar">
@@ -25,7 +33,7 @@
         <h1 class="h-primary">Welcome to SwadRasoi</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint iste doloremque optio!</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        <button class="btn">Order Now</button>
+        <button class="btn" onclick="OrderClick()">Order Now</button>
     </section>
     <section id="services-container">
         <h1 class="h-primary center">Our Services</h1>
@@ -84,8 +92,9 @@
                         <label for="Name">Message:</label>
                         <textarea name="Message" id="" cols="30" rows="10"></textarea>
                     </div>
-                    <div class="Submit-btn">
-                        <button class="btn">Submit</button>
+                    <div class="Submit-btn-outer">
+
+                        <button class="Submit-btn" onclick="SubmitClick()">Submit</button>
                     </div>
             </form>
         </div>
@@ -94,5 +103,6 @@
     <footer class="center">
         Copyright &copy; All Rights Reserved | SwadRasoi.com
     </footer>
+    
 </body>
 </html>

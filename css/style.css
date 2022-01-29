@@ -102,11 +102,11 @@ html{
     color: white;
 }
 .btn{
-    color: white;
-    background-color: brown;
+    color: black;
+    background-color:white ;
     border-radius: 10px;
     font-size: 1.2rem;
-    padding: 5px;
+    padding: 5px 32px;
     margin: 5px;
     border: 2px solid white;
     cursor: pointer;
@@ -193,9 +193,19 @@ html{
     margin: 2px;
      border-radius:10px ;
 }
-.Submit-btn{
+.Submit-btn-outer{
     display:flex;
     justify-content: center;
+}
+.Submit-btn{
+    color: white;
+    background-color:black ;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px 32px;
+    margin: 5px;
+    border: 2px solid white;
+    cursor: pointer;
 }
 #contact-container::before{
     content: "";
