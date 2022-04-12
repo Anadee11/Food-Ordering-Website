@@ -209,7 +209,7 @@ html{
 }
 #contact-container::before{
     content: "";
-    height: 542px;
+    height: 550px;
     width: 100%;
     position: absolute;
     background:url('../Contact.jpg') no-repeat center center/cover;
